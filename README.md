@@ -94,8 +94,9 @@ githubScraper/
 
 ## Result
 
-The data will get stored in json format in data.json file 
+The data will get stored in json format in users.json file 
 
+```bash
 example ->  {
       "username": "john-doe",
       "displayName": "John Doe",
