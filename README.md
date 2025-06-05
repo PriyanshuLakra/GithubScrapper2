@@ -26,10 +26,6 @@ This backend service scrapes GitHub user profiles based on a search keyword, ext
 git clone https://github.com/PriyanshuLakra/GithubScrapper2
 cd GithubScrapper2
 
-
-
-
-
 ```
 ### 2. install Dependencies
 
@@ -43,7 +39,6 @@ npm install
 OPENAI_API_KEY=your_openai_api_key
 PORT=5050
 
-
 ```
 ### 4. Start the Server
 
@@ -53,8 +48,6 @@ npm run dev
 
 Server runs at:
 http://localhost:5050
-
-
 
 ```
 API Endpoint
@@ -66,11 +59,17 @@ Trigger GitHub scraping and AI summarization.
 Optional Query Param:
 keyword: Search term to scrape developers (default = javascript developer)
 
-
 ```
 API 
 ```bash
 curl http://localhost:5050/api/github/scrape?keyword=react+developer
+
+
+`````
+---
+
+Result
+
 
 
 
