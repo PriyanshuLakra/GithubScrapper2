@@ -66,6 +66,30 @@ curl http://localhost:5050/api/github/scrape?keyword=react+developer
 
 
 `````
+
+---
+
+## file structure 
+
+``` bash
+
+githubScraper/
+├── controllers/
+│   └── githubController.js
+├── services/
+│   ├── scraperService.js
+│   └── aiService.js
+├── routes/
+│   └── githubRoutes.js
+├── data/
+│   └── users.json
+├── .env
+├── app.js
+├── README.md
+└── package.json
+
+```
+---
 ---
 
 ## Result
