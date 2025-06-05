@@ -32,7 +32,50 @@ cd GithubScrapper2
 
 ```
 ### 2. install Dependencies
-npm install 
+
+```bash
+npm install
+
+```
+### 3. Configure Environment Variables
+
+```bash
+OPENAI_API_KEY=your_openai_api_key
+PORT=5050
+
+
+```
+### 4. Start the Server
+
+```bash
+npm run dev
+
+
+Server runs at:
+http://localhost:5050
+
+
+
+```
+API Endpoint
+
+```
+GET /api/github/scrape
+Trigger GitHub scraping and AI summarization.
+
+Optional Query Param:
+keyword: Search term to scrape developers (default = javascript developer)
+
+
+```
+API 
+```bash
+curl http://localhost:5050/api/github/scrape?keyword=react+developer
+
+
+
+
+
 
 
 
