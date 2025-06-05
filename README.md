@@ -27,8 +27,11 @@ git clone https://github.com/PriyanshuLakra/GithubScrapper2
 cd GithubScrapper2
 
 
-### 2. install Dependencies
 
+
+
+```
+### 2. install Dependencies
 npm install 
 
 
