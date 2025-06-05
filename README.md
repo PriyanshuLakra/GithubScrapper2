@@ -68,7 +68,18 @@ curl http://localhost:5050/api/github/scrape?keyword=react+developer
 `````
 ---
 
-Result
+## Result
+
+The data will get stored in json format in data.json file 
+
+example ->  {
+      "username": "john-doe",
+      "displayName": "John Doe",
+      "bio": "Full-stack developer",
+      "location": "USA",
+      "profileURL": "https://github.com/john-doe",
+      "aiSummary": "John Doe is a full-stack developer skilled in React, Node.js..."
+    }
 
 
 
